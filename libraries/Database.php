@@ -16,7 +16,7 @@
 
         public function __construct()
         {
-            $this->link = mysqli_connect("localhost","root","","qlbh") or die ();
+            $this->link = mysqli_connect("baitaplon.cntjprrmhj5l.us-east-2.rds.amazonaws.com","admin","12345678","qlbh") or die ();
             
         }
 
